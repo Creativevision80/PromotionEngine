@@ -22,7 +22,7 @@ namespace PromotionEngine.UnitTests
         DiscountDto discountDto = null;
         public CartControllerUnitTest()
         {
-            //create list of products
+            //create list of products to reuse
             products = new List<Product>()
             { new Product(){Id="A",Price=50}};
             //add it to Order
